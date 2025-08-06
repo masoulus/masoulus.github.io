@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masoulus.com - Artist Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header { background: #000; color: #fff; text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 3em; margin: 0; }
+    nav { background: #222; text-align: center; padding: 10px; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .section { padding: 40px 20px; max-width: 1200px; margin: auto; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .gallery img:hover { transform: scale(1.05); transition: 0.3s; }
+    footer { background: #000; color: #fff; text-align: center; padding: 20px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Masoulus</h1>
+    <p>Artist Portfolio | Dropping Soulful Vibes & Creations</p>
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section class="section" id="about">
+    <h2>About Masoulus</h2>
+    <p>Yo, what's good? I'm Masoulus, an artist straight outta [your city/state—e.g., the streets of LA], crafting pieces that hit the soul. Whether it's digital art, beats, or raw expression, my work's about keeping it real—no corporate conny bullshit. I've been grinding since [year you started], inspired by [influences, e.g., street culture, soul music, personal stories]. This site's my spot to showcase the fire without the noise.</p>
+    <img src="images/your-profile-photo.jpg" alt="Masoulus Profile Photo" style="max-width: 100%; height: auto; border-radius: 8px; display: block; margin: 20px auto;">
+  </section>
+  
+  <section class="section" id="portfolio">
+    <h2>Portfolio</h2>
+    <p>Check the latest drops—each piece tells a story. Hit me if you vibe with something.</p>
+    <div class="gallery">
+      <!-- Replace with your actual images; add more as needed -->
+      <img src="images/artwork1.jpg" alt="Artwork 1: Soul Vibes Digital Piece">
+      <img src="images/artwork2.jpg" alt="Artwork 2: Street Beat Illustration">
+      <img src="images/artwork3.jpg" alt="Artwork 3: Raw Expression Canvas">
+      <img src="images/artwork4.jpg" alt="Artwork 4: [Describe your art here]">
+      <!-- Duplicate for more images -->
+    </div>
+  </section>
+  
+  <section class="section" id="contact">
+    <h2>Get in Touch</h2>
+    <p>Wanna collab, chat, or just say what's up? Slide in: dominicjanlin@gmail.com</p>
+    <p>Socials: [Add links, e.g., Instagram: @masoulus_vibes | Twitter: @masoulus_art]</p>
+  </section>
+  
+  <footer>
+    <p>&copy; 2025 Masoulus.com. All rights reserved. Built indie, no corpo ties.</p>
+  </footer>
+</body>
+</html>
